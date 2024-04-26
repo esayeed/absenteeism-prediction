@@ -1,0 +1,8 @@
+# Ignore everything
+**
+
+# Except for required files
+!absenteeism/
+!notebooks/
+!docker-entrypoint.sh
+!requirements.txt
