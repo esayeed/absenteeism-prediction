@@ -165,5 +165,8 @@ cython_debug/
 # macOS
 .DS_Store
 
-# Project output
+# Project data and output
+data/
+!data/absenteeism_input_data.csv
+!data/absenteeism_training_data.csv
 output/
