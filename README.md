@@ -1,7 +1,9 @@
 # Absenteeism Prediction Modeling
 
 ## Overview
-TBD
+This project is designed to predict absenteeism in a company based on various factors such as the reason for absence, the number of hours of absence, and the distance from the company. The project uses a machine learning model to predict absenteeism and provides a command line utility that can be run using a Docker container to train the model and predict absenteeism based on input data.
+
+This project also includes the Jupyter Notebook that was used to analyze the data and build the initial machine learning model. The notebook can also be run interactively through a Docker container. The instructions on how to do that are detailed below.
 
 ## Prerequisites
 - [Docker](https://docs.docker.com/get-docker/)
