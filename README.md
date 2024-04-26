@@ -31,11 +31,11 @@ root/
 
 ### Clone the repository
 ```bash
-git clone https://github.com/esayeed/absenteeism-prediction-modeling.git
+git clone https://github.com/esayeed/absenteeism-prediction.git
 ```
 ### Navigate to the project directory
 ```bash
-cd absenteeism-prediction-modeling
+cd absenteeism-prediction
 ```
 
 ### Build and Run the Docker Container
