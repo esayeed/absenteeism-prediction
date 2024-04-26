@@ -1,0 +1,41 @@
+[project]
+name = "absenteeism-analysis"
+version = "0.1.0"
+authors = [
+    {name = "Esam Sayeed", email = "esamsayeed@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.ruff]
+line-length = 96
+indent-width = 4
+target-version = "py39"
+extend-include = ["*.ipynb"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle error
+    "F",    # Pyflakes
+    "I",    # isort
+    "W"     # pycodestyle warning
+]
+
+[tool.ruff.lint.isort]
+force-single-line = false

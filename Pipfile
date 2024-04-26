@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "==1.3.2"
+numpy = "==1.26.1"
+pandas = "==2.1.1"
+jupyter = "*"
+click = "*"
+
+[dev-packages]
+ruff = "==0.3.0"
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.18"
+
+[scripts]
+predict_outputs = {call = "absenteeism.scripts.predict_outputs:predict_outputs"}
+train_model = {call = "absenteeism.scripts.train_model:train_model"}
