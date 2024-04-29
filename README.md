@@ -47,7 +47,7 @@ docker compose up --build -d
 
 ### View the Notebook
 Open the following link in your browser to access the Jupyter Notebook:
-http://localhost:8888/lab/tree/absenteeism_analysis.ipynb
+[http://localhost:8888/lab/tree/absenteeism_analysis.ipynb](https://github.com/esayeed/absenteeism-prediction/blob/main/notebooks/absenteeism_analysis.ipynb)
 
 ### Train the Model
 Run the following command to train the model using a CSV file containing the training data included with the project:
