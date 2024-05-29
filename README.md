@@ -6,7 +6,7 @@ This project is designed to predict absenteeism in a company based on various fa
 ## View the design presentation notebook
 [Link to design presentation](https://github.com/esayeed/absenteeism-prediction/blob/main/notebooks/absenteeism_analysis.ipynb)
 
-## Prerequisites
+## Prerequisites to run application
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - [Python 3.9](https://www.python.org/downloads/)
