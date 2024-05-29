@@ -1,9 +1,10 @@
 # Absenteeism Prediction Modeling
 
 ## Overview
-This project is designed to predict absenteeism in a company based on various factors such as the reason for absence, the number of hours of absence, and the distance from the company. The project uses a machine learning model to predict absenteeism and provides a command line utility that can be run using a Docker container to train the model and predict absenteeism based on input data.
+This project is designed to predict absenteeism in a company based on various factors such as the reason for absence, the number of hours of absence, and the distance from the company. The project uses a machine learning model to predict absenteeism and provides a command line utility that can be run using a Docker container to train the model and predict absenteeism based on input data. The entire design process has been detailed in the notebook linked below. The code was then converted to a fully deployable application built on top of docker with python.
 
-This project also includes the Jupyter Notebook that was used to analyze the data and build the initial machine learning model. The notebook can also be run interactively through a Docker container. The instructions on how to do that are detailed below.
+## View the design presentation notebook
+[Link to design presentation](https://github.com/esayeed/absenteeism-prediction/blob/main/notebooks/absenteeism_analysis.ipynb)
 
 ## Prerequisites
 - [Docker](https://docs.docker.com/get-docker/)
@@ -45,9 +46,6 @@ cd absenteeism-prediction
 docker compose up --build -d
 ```
 
-### View the Notebook
-Open the following link in your browser to access the Jupyter Notebook:
-[http://localhost:8888/lab/tree/absenteeism_analysis.ipynb]
 
 ### Train the Model
 Run the following command to train the model using a CSV file containing the training data included with the project:
